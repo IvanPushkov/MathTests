@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D74E500B298BE1FE0079AB63 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74E500A298BE1FE0079AB63 /* File.swift */; };
+		D74E500D298BE6320079AB63 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74E500C298BE6320079AB63 /* TableViewController.swift */; };
 		D7AF596B2988189E0003692C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AF596A2988189E0003692C /* AppDelegate.swift */; };
 		D7AF596D2988189E0003692C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AF596C2988189E0003692C /* SceneDelegate.swift */; };
-		D7AF596F2988189E0003692C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AF596E2988189E0003692C /* ViewController.swift */; };
+		D7AF596F2988189E0003692C /* MathTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AF596E2988189E0003692C /* MathTestVC.swift */; };
 		D7AF59722988189E0003692C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7AF59702988189E0003692C /* Main.storyboard */; };
 		D7AF5974298818A00003692C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7AF5973298818A00003692C /* Assets.xcassets */; };
 		D7AF5977298818A00003692C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7AF5975298818A00003692C /* LaunchScreen.storyboard */; };
 		D7AF5982298818A10003692C /* MathTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AF5981298818A10003692C /* MathTestTests.swift */; };
 		D7AF598C298818A10003692C /* MathTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AF598B298818A10003692C /* MathTestUITests.swift */; };
 		D7AF598E298818A10003692C /* MathTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AF598D298818A10003692C /* MathTestUITestsLaunchTests.swift */; };
+		D7AF599B2988208A0003692C /* RandomExampleElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AF599A2988208A0003692C /* RandomExampleElements.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D74E500A298BE1FE0079AB63 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		D74E500C298BE6320079AB63 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		D7AF59672988189E0003692C /* MathTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7AF596A2988189E0003692C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7AF596C2988189E0003692C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D7AF596E2988189E0003692C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7AF596E2988189E0003692C /* MathTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathTestVC.swift; sourceTree = "<group>"; };
 		D7AF59712988189E0003692C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D7AF5973298818A00003692C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7AF5976298818A00003692C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,7 @@
 		D7AF5987298818A10003692C /* MathTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7AF598B298818A10003692C /* MathTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathTestUITests.swift; sourceTree = "<group>"; };
 		D7AF598D298818A10003692C /* MathTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D7AF599A2988208A0003692C /* RandomExampleElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomExampleElements.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +107,12 @@
 			children = (
 				D7AF596A2988189E0003692C /* AppDelegate.swift */,
 				D7AF596C2988189E0003692C /* SceneDelegate.swift */,
-				D7AF596E2988189E0003692C /* ViewController.swift */,
+				D7AF596E2988189E0003692C /* MathTestVC.swift */,
 				D7AF59702988189E0003692C /* Main.storyboard */,
 				D7AF5973298818A00003692C /* Assets.xcassets */,
+				D74E500C298BE6320079AB63 /* TableViewController.swift */,
+				D7AF599A2988208A0003692C /* RandomExampleElements.swift */,
+				D74E500A298BE1FE0079AB63 /* File.swift */,
 				D7AF5975298818A00003692C /* LaunchScreen.storyboard */,
 				D7AF5978298818A00003692C /* Info.plist */,
 			);
@@ -258,7 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7AF596F2988189E0003692C /* ViewController.swift in Sources */,
+				D7AF596F2988189E0003692C /* MathTestVC.swift in Sources */,
+				D74E500D298BE6320079AB63 /* TableViewController.swift in Sources */,
+				D74E500B298BE1FE0079AB63 /* File.swift in Sources */,
+				D7AF599B2988208A0003692C /* RandomExampleElements.swift in Sources */,
 				D7AF596B2988189E0003692C /* AppDelegate.swift in Sources */,
 				D7AF596D2988189E0003692C /* SceneDelegate.swift in Sources */,
 			);
@@ -437,6 +449,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TX2TU96GUU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MathTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -464,6 +477,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TX2TU96GUU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MathTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
