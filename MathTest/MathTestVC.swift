@@ -17,12 +17,15 @@ class ViewController: UIViewController {
     
     
     override func viewDidLoad() {
+        
         textField.isHidden = true
         super.viewDidLoad()
-        checkButton.layer.cornerRadius = 30
+        checkButton.layer.cornerRadius = 15
         exempleLabel.text = "Начнем?"
         textField.text = ""
-       
+        textField.frame = CGRect(x: 12, y: 33, width: view.frame.width - 30, height: 50)
+        textField.center = view.center
+        
     }
     func textFieldShouldReturn( textField: UITextField) -> Bool {
         self.view.endEditing(true)
